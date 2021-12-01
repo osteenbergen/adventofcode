@@ -2,7 +2,7 @@ from typing import List
 
 from aoc.lib.reader import input_by_line
 
-data: List[int] = input_by_line(day=1, convert=int)
+data: List[int] = input_by_line(year=2021, day=1, convert=int)
 
 previous: int = 0
 increases: int = 0

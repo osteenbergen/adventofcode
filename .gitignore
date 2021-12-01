@@ -1,1 +1,6 @@
 *.txt
+*.pyc
+__pycache__/
+
+# mypy
+.mypy_cache/
