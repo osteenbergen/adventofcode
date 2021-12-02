@@ -1,9 +1,9 @@
 from pathlib import Path
-from typing import Any, Callable, List
+from typing import Any, Callable, List, Optional
 
 
 def input_by_line(
-    year: int, day: int, name: str = None, convert: Callable[[str], Any] = None
+    year: int, day: int, name: Optional[str] = None, convert: Optional[Callable[[str], Any]] = None
 ) -> List[Any]:
     """
     Read input file to a list
